@@ -1,0 +1,699 @@
+[
+  {
+    "id": 1,
+    "name": "Student 1",
+    "major": "Mechanical Engineering",
+    "year": "Senior",
+    "interests": [
+      "renewable energy",
+      "biomechanics",
+      "data science",
+      "machine learning"
+    ],
+    "skills": [
+      "Python",
+      "MATLAB"
+    ],
+    "availabilityHoursPerWeek": 8
+  },
+  {
+    "id": 2,
+    "name": "Student 2",
+    "major": "Computer Science",
+    "year": "Sophomore",
+    "interests": [
+      "biomechanics",
+      "robotics",
+      "data science",
+      "machine learning"
+    ],
+    "skills": [
+      "MATLAB",
+      "React",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 3,
+    "name": "Student 3",
+    "major": "Mechanical Engineering",
+    "year": "Junior",
+    "interests": [
+      "data science",
+      "biomechanics"
+    ],
+    "skills": [
+      "R",
+      "Java",
+      "Python",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 8
+  },
+  {
+    "id": 4,
+    "name": "Student 4",
+    "major": "EE",
+    "year": "Senior",
+    "interests": [
+      "robotics",
+      "machine learning",
+      "renewable energy",
+      "biomechanics"
+    ],
+    "skills": [
+      "SolidWorks",
+      "React",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 5,
+    "name": "Student 5",
+    "major": "EE",
+    "year": "Sophomore",
+    "interests": [
+      "biomechanics",
+      "data science"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "React",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 6,
+    "name": "Student 6",
+    "major": "Computer Science",
+    "year": "Freshman",
+    "interests": [
+      "renewable energy",
+      "data science",
+      "robotics",
+      "biomechanics"
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "React",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 7,
+    "name": "Student 7",
+    "major": "Biology",
+    "year": "Sophomore",
+    "interests": [
+      "data science",
+      "renewable energy",
+      "machine learning",
+      "biomechanics"
+    ],
+    "skills": [
+      "MATLAB",
+      "Java",
+      "React",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 8,
+    "name": "Student 8",
+    "major": "EE",
+    "year": "Sophomore",
+    "interests": [
+      "biomechanics",
+      "renewable energy",
+      "machine learning"
+    ],
+    "skills": [
+      "Java",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 9,
+    "name": "Student 9",
+    "major": "Biology",
+    "year": "Junior",
+    "interests": [
+      "biomechanics",
+      "machine learning",
+      "robotics",
+      "data science"
+    ],
+    "skills": [
+      "SolidWorks",
+      "Python",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 10,
+    "name": "Student 10",
+    "major": "EE",
+    "year": "Junior",
+    "interests": [
+      "renewable energy",
+      "data science"
+    ],
+    "skills": [
+      "R",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 11,
+    "name": "Student 11",
+    "major": "Mechanical Engineering",
+    "year": "Senior",
+    "interests": [
+      "robotics",
+      "biomechanics",
+      "machine learning"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "R",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 8
+  },
+  {
+    "id": 12,
+    "name": "Student 12",
+    "major": "Biology",
+    "year": "Sophomore",
+    "interests": [
+      "data science",
+      "renewable energy",
+      "biomechanics"
+    ],
+    "skills": [
+      "SolidWorks",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 13,
+    "name": "Student 13",
+    "major": "Biology",
+    "year": "Sophomore",
+    "interests": [
+      "data science",
+      "renewable energy"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": 14,
+    "name": "Student 14",
+    "major": "Computer Science",
+    "year": "Freshman",
+    "interests": [
+      "data science",
+      "robotics",
+      "biomechanics",
+      "renewable energy"
+    ],
+    "skills": [
+      "Java",
+      "React",
+      "Python",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 15,
+    "name": "Student 15",
+    "major": "Biology",
+    "year": "Sophomore",
+    "interests": [
+      "robotics",
+      "renewable energy"
+    ],
+    "skills": [
+      "React",
+      "R",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 16,
+    "name": "Student 16",
+    "major": "Mechanical Engineering",
+    "year": "Junior",
+    "interests": [
+      "biomechanics",
+      "data science",
+      "machine learning",
+      "renewable energy"
+    ],
+    "skills": [
+      "Java",
+      "MATLAB",
+      "R",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": 17,
+    "name": "Student 17",
+    "major": "Computer Science",
+    "year": "Senior",
+    "interests": [
+      "renewable energy",
+      "data science",
+      "machine learning"
+    ],
+    "skills": [
+      "React",
+      "Python",
+      "MATLAB",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 18,
+    "name": "Student 18",
+    "major": "Mechanical Engineering",
+    "year": "Sophomore",
+    "interests": [
+      "renewable energy",
+      "machine learning",
+      "data science",
+      "robotics"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "MATLAB"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": 19,
+    "name": "Student 19",
+    "major": "Computer Science",
+    "year": "Sophomore",
+    "interests": [
+      "robotics",
+      "biomechanics",
+      "renewable energy"
+    ],
+    "skills": [
+      "Python",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 20,
+    "name": "Student 20",
+    "major": "Biology",
+    "year": "Freshman",
+    "interests": [
+      "data science",
+      "renewable energy",
+      "machine learning"
+    ],
+    "skills": [
+      "MATLAB",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 21,
+    "name": "Student 21",
+    "major": "Computer Science",
+    "year": "Freshman",
+    "interests": [
+      "renewable energy",
+      "machine learning"
+    ],
+    "skills": [
+      "Java",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 22,
+    "name": "Student 22",
+    "major": "EE",
+    "year": "Senior",
+    "interests": [
+      "renewable energy",
+      "data science",
+      "robotics"
+    ],
+    "skills": [
+      "React",
+      "R",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 23,
+    "name": "Student 23",
+    "major": "EE",
+    "year": "Junior",
+    "interests": [
+      "machine learning",
+      "renewable energy",
+      "data science",
+      "biomechanics"
+    ],
+    "skills": [
+      "SolidWorks",
+      "R",
+      "MATLAB",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 24,
+    "name": "Student 24",
+    "major": "Mechanical Engineering",
+    "year": "Senior",
+    "interests": [
+      "data science",
+      "renewable energy",
+      "biomechanics"
+    ],
+    "skills": [
+      "Python",
+      "MATLAB",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 25,
+    "name": "Student 25",
+    "major": "Computer Science",
+    "year": "Junior",
+    "interests": [
+      "biomechanics",
+      "renewable energy"
+    ],
+    "skills": [
+      "MATLAB",
+      "SolidWorks",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 26,
+    "name": "Student 26",
+    "major": "Biology",
+    "year": "Junior",
+    "interests": [
+      "renewable energy",
+      "machine learning",
+      "robotics",
+      "biomechanics"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 27,
+    "name": "Student 27",
+    "major": "Mechanical Engineering",
+    "year": "Sophomore",
+    "interests": [
+      "renewable energy",
+      "robotics",
+      "biomechanics"
+    ],
+    "skills": [
+      "Java",
+      "SolidWorks",
+      "MATLAB",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 28,
+    "name": "Student 28",
+    "major": "Mechanical Engineering",
+    "year": "Freshman",
+    "interests": [
+      "data science",
+      "robotics",
+      "machine learning"
+    ],
+    "skills": [
+      "SolidWorks",
+      "MATLAB",
+      "React"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 29,
+    "name": "Student 29",
+    "major": "EE",
+    "year": "Senior",
+    "interests": [
+      "machine learning",
+      "renewable energy",
+      "data science"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "React",
+      "MATLAB"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": 30,
+    "name": "Student 30",
+    "major": "Biology",
+    "year": "Freshman",
+    "interests": [
+      "renewable energy",
+      "data science",
+      "biomechanics"
+    ],
+    "skills": [
+      "R",
+      "Python",
+      "Java",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 31,
+    "name": "Student 31",
+    "major": "Biology",
+    "year": "Freshman",
+    "interests": [
+      "biomechanics",
+      "data science"
+    ],
+    "skills": [
+      "R",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 32,
+    "name": "Student 32",
+    "major": "Biology",
+    "year": "Senior",
+    "interests": [
+      "renewable energy",
+      "data science",
+      "biomechanics",
+      "robotics"
+    ],
+    "skills": [
+      "SolidWorks",
+      "MATLAB"
+    ],
+    "availabilityHoursPerWeek": 10
+  },
+  {
+    "id": 33,
+    "name": "Student 33",
+    "major": "EE",
+    "year": "Junior",
+    "interests": [
+      "biomechanics",
+      "robotics"
+    ],
+    "skills": [
+      "Java",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 7
+  },
+  {
+    "id": 34,
+    "name": "Student 34",
+    "major": "Mechanical Engineering",
+    "year": "Junior",
+    "interests": [
+      "machine learning",
+      "biomechanics",
+      "robotics"
+    ],
+    "skills": [
+      "MATLAB",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": 35,
+    "name": "Student 35",
+    "major": "Biology",
+    "year": "Junior",
+    "interests": [
+      "biomechanics",
+      "data science",
+      "robotics",
+      "machine learning"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "R",
+      "MATLAB"
+    ],
+    "availabilityHoursPerWeek": 8
+  },
+  {
+    "id": 36,
+    "name": "Student 36",
+    "major": "Biology",
+    "year": "Sophomore",
+    "interests": [
+      "robotics",
+      "data science",
+      "renewable energy"
+    ],
+    "skills": [
+      "MATLAB",
+      "React",
+      "Java",
+      "SolidWorks"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 37,
+    "name": "Student 37",
+    "major": "Computer Science",
+    "year": "Senior",
+    "interests": [
+      "data science",
+      "machine learning",
+      "renewable energy"
+    ],
+    "skills": [
+      "React",
+      "SolidWorks",
+      "Java"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 38,
+    "name": "Student 38",
+    "major": "Biology",
+    "year": "Freshman",
+    "interests": [
+      "machine learning",
+      "renewable energy",
+      "robotics"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "SolidWorks",
+      "R"
+    ],
+    "availabilityHoursPerWeek": 5
+  },
+  {
+    "id": 39,
+    "name": "Student 39",
+    "major": "EE",
+    "year": "Junior",
+    "interests": [
+      "machine learning",
+      "data science",
+      "robotics"
+    ],
+    "skills": [
+      "SolidWorks",
+      "React",
+      "R",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 6
+  },
+  {
+    "id": 40,
+    "name": "Student 40",
+    "major": "Mechanical Engineering",
+    "year": "Senior",
+    "interests": [
+      "data science",
+      "biomechanics"
+    ],
+    "skills": [
+      "R",
+      "Python"
+    ],
+    "availabilityHoursPerWeek": 9
+  },
+  {
+    "id": "1764816616937",
+    "role": "student",
+    "fullName": "pallavi",
+    "major": "bio",
+    "year": "bio",
+    "interests": "bio",
+    "skills": "bio",
+    "bio": "bio"
+  }
+]

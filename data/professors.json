@@ -1,0 +1,388 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Professor 1",
+    "department": "Mechanical Engineering",
+    "labName": "IntelliLab 1",
+    "researchAreas": [
+      "Control systems",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "C++",
+      "MATLAB",
+      "CAD"
+    ],
+    "minHoursPerWeek": 9
+  },
+  {
+    "id": 2,
+    "name": "Dr. Professor 2",
+    "department": "Mechanical Engineering",
+    "labName": "IntelliLab 2",
+    "researchAreas": [
+      "Robotics",
+      "Signal processing",
+      "Control systems",
+      "CV"
+    ],
+    "requiredSkills": [
+      "CAD",
+      "C++"
+    ],
+    "minHoursPerWeek": 10
+  },
+  {
+    "id": 3,
+    "name": "Dr. Professor 3",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 3",
+    "researchAreas": [
+      "CV",
+      "Control systems",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "TensorFlow",
+      "C++",
+      "CAD",
+      "Python"
+    ],
+    "minHoursPerWeek": 9
+  },
+  {
+    "id": 4,
+    "name": "Dr. Professor 4",
+    "department": "Electrical Engineering",
+    "labName": "IntelliLab 4",
+    "researchAreas": [
+      "Robotics",
+      "Control systems"
+    ],
+    "requiredSkills": [
+      "Python",
+      "C++",
+      "CAD"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 5,
+    "name": "Dr. Professor 5",
+    "department": "Electrical Engineering",
+    "labName": "IntelliLab 5",
+    "researchAreas": [
+      "Robotics",
+      "Control systems",
+      "CV"
+    ],
+    "requiredSkills": [
+      "C++",
+      "MATLAB",
+      "Python"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 6,
+    "name": "Dr. Professor 6",
+    "department": "Computer Science",
+    "labName": "IntelliLab 6",
+    "researchAreas": [
+      "NLP",
+      "Control systems"
+    ],
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "CAD",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 10
+  },
+  {
+    "id": 7,
+    "name": "Dr. Professor 7",
+    "department": "Computer Science",
+    "labName": "IntelliLab 7",
+    "researchAreas": [
+      "Robotics",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "CAD",
+      "Python",
+      "MATLAB",
+      "TensorFlow"
+    ],
+    "minHoursPerWeek": 10
+  },
+  {
+    "id": 8,
+    "name": "Dr. Professor 8",
+    "department": "Computer Science",
+    "labName": "IntelliLab 8",
+    "researchAreas": [
+      "Signal processing",
+      "NLP",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "Python",
+      "TensorFlow",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 9,
+    "name": "Dr. Professor 9",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 9",
+    "researchAreas": [
+      "CV",
+      "NLP",
+      "Control systems",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "TensorFlow",
+      "CAD",
+      "C++"
+    ],
+    "minHoursPerWeek": 5
+  },
+  {
+    "id": 10,
+    "name": "Dr. Professor 10",
+    "department": "Electrical Engineering",
+    "labName": "IntelliLab 10",
+    "researchAreas": [
+      "Robotics",
+      "Signal processing",
+      "Control systems"
+    ],
+    "requiredSkills": [
+      "CAD",
+      "Python",
+      "MATLAB",
+      "C++"
+    ],
+    "minHoursPerWeek": 6
+  },
+  {
+    "id": 11,
+    "name": "Dr. Professor 11",
+    "department": "Computer Science",
+    "labName": "IntelliLab 11",
+    "researchAreas": [
+      "Control systems",
+      "CV",
+      "Robotics",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "Python",
+      "CAD"
+    ],
+    "minHoursPerWeek": 10
+  },
+  {
+    "id": 12,
+    "name": "Dr. Professor 12",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 12",
+    "researchAreas": [
+      "CV",
+      "Signal processing",
+      "NLP",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "Python",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 13,
+    "name": "Dr. Professor 13",
+    "department": "Electrical Engineering",
+    "labName": "IntelliLab 13",
+    "researchAreas": [
+      "Signal processing",
+      "NLP",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "CAD",
+      "TensorFlow",
+      "Python",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 5
+  },
+  {
+    "id": 14,
+    "name": "Dr. Professor 14",
+    "department": "Computer Science",
+    "labName": "IntelliLab 14",
+    "researchAreas": [
+      "NLP",
+      "Robotics",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "C++",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 7
+  },
+  {
+    "id": 15,
+    "name": "Dr. Professor 15",
+    "department": "Computer Science",
+    "labName": "IntelliLab 15",
+    "researchAreas": [
+      "CV",
+      "Signal processing",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "C++",
+      "TensorFlow",
+      "Python",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 9
+  },
+  {
+    "id": 16,
+    "name": "Dr. Professor 16",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 16",
+    "researchAreas": [
+      "Robotics",
+      "NLP"
+    ],
+    "requiredSkills": [
+      "Python",
+      "C++",
+      "TensorFlow",
+      "MATLAB"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 17,
+    "name": "Dr. Professor 17",
+    "department": "Mechanical Engineering",
+    "labName": "IntelliLab 17",
+    "researchAreas": [
+      "NLP",
+      "CV",
+      "Signal processing",
+      "Control systems"
+    ],
+    "requiredSkills": [
+      "TensorFlow",
+      "C++"
+    ],
+    "minHoursPerWeek": 5
+  },
+  {
+    "id": 18,
+    "name": "Dr. Professor 18",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 18",
+    "researchAreas": [
+      "Control systems",
+      "CV",
+      "Robotics",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "MATLAB",
+      "TensorFlow"
+    ],
+    "minHoursPerWeek": 10
+  },
+  {
+    "id": 19,
+    "name": "Dr. Professor 19",
+    "department": "Biomedical Engineering",
+    "labName": "IntelliLab 19",
+    "researchAreas": [
+      "Control systems",
+      "CV",
+      "Signal processing"
+    ],
+    "requiredSkills": [
+      "CAD",
+      "Python"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 20,
+    "name": "Dr. Professor 20",
+    "department": "Electrical Engineering",
+    "labName": "IntelliLab 20",
+    "researchAreas": [
+      "NLP",
+      "Signal processing",
+      "Control systems",
+      "Robotics"
+    ],
+    "requiredSkills": [
+      "MATLAB",
+      "CAD",
+      "Python"
+    ],
+    "minHoursPerWeek": 8
+  },
+  {
+    "id": 1764815603914,
+    "createdAt": "2025-12-04T02:33:23.914Z",
+    "role": "professor",
+    "fullName": "Sunseri",
+    "department": "",
+    "researchArea": "",
+    "labWebsite": "",
+    "projects": "",
+    "bio": ""
+  },
+  {
+    "id": 1764815752276,
+    "createdAt": "2025-12-04T02:35:52.276Z",
+    "role": "professor",
+    "fullName": "Sri Ran",
+    "department": "",
+    "researchArea": "",
+    "labWebsite": "",
+    "projects": "",
+    "bio": ""
+  },
+  {
+    "id": 1764815967040,
+    "createdAt": "2025-12-04T02:39:27.040Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "",
+    "researchArea": "",
+    "labWebsite": "",
+    "projects": "",
+    "bio": ""
+  },
+  {
+    "id": 1764816646072,
+    "createdAt": "2025-12-04T02:50:46.072Z",
+    "role": "professor",
+    "fullName": "Dr",
+    "department": "bio",
+    "researchArea": "bio",
+    "labWebsite": "bio",
+    "projects": "bio",
+    "bio": "bio"
+  }
+]

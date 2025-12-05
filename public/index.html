@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ResearchMatch Profile</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 16px;
+      }
+      label {
+        display: block;
+        margin-top: 12px;
+        font-weight: 600;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 16px;
+        padding: 10px 16px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .message {
+        margin-top: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your ResearchMatch Profile</h1>
+
+    <!-- For now, pretend this is the logged in user -->
+    <label for="userId">User ID (temp)</label>
+    <input id="userId" value="student1" />
+
+    <label for="fullName">Full name</label>
+    <input id="fullName" placeholder="Sai Rangi" />
+
+    <label for="major">Major</label>
+    <input id="major" placeholder="Mechanical Engineering" />
+
+    <label for="year">Year</label>
+    <input id="year" placeholder="First year" />
+
+    <label for="interests">Research interests</label>
+    <textarea
+      id="interests"
+      rows="3"
+      placeholder="AI for healthcare, biomechanics, transportation systems..."
+    ></textarea>
+
+    <label for="skills">Skills and tools</label>
+    <textarea
+      id="skills"
+      rows="3"
+      placeholder="Python, Java, MATLAB, SolidWorks, R, statistics..."
+    ></textarea>
+
+    <label for="bio">Short bio</label>
+    <textarea
+      id="bio"
+      rows="4"
+      placeholder="One or two paragraphs about your background and goals."
+    ></textarea>
+
+    <div>
+      <button id="loadBtn">Load existing profile</button>
+      <button id="saveBtn">Save profile</button>
+    </div>
+
+    <div id="message" class="message" style="display: none"></div>
+
+    <script>
+      const apiBase = "http://localhost:3000";
+
+      const userIdInput = document.getElementById("userId");
+      const fullNameInput = document.getElementById("fullName");
+      const majorInput = document.getElementById("major");
+      const yearInput = document.getElementById("year");
+      const interestsInput = document.getElementById("interests");
+      const skillsInput = document.getElementById("skills");
+      const bioInput = document.getElementById("bio");
+      const messageDiv = document.getElementById("message");
+
+      function showMessage(text) {
+        messageDiv.textContent = text;
+        messageDiv.style.display = "block";
+      }
+
+      document.getElementById("loadBtn").addEventListener("click", async () => {
+        const userId = userIdInput.value.trim();
+        if (!userId) {
+          showMessage("Enter a userId first.");
+          return;
+        }
+
+        try {
+          const res = await fetch(`${apiBase}/api/profile/${userId}`);
+          if (!res.ok) {
+            showMessage("No profile found for this user.");
+            return;
+          }
+          const data = await res.json();
+
+          fullNameInput.value = data.fullName || "";
+          majorInput.value = data.major || "";
+          yearInput.value = data.year || "";
+          interestsInput.value = data.interests || "";
+          skillsInput.value = data.skills || "";
+          bioInput.value = data.bio || "";
+
+          showMessage("Profile loaded.");
+        } catch (err) {
+          console.error(err);
+          showMessage("Error loading profile.");
+        }
+      });
+
+      document.getElementById("saveBtn").addEventListener("click", async () => {
+        const userId = userIdInput.value.trim();
+        if (!userId) {
+          showMessage("Enter a userId first.");
+          return;
+        }
+
+        const payload = {
+          userId,
+          fullName: fullNameInput.value,
+          major: majorInput.value,
+          year: yearInput.value,
+          interests: interestsInput.value,
+          skills: skillsInput.value,
+          bio: bioInput.value,
+        };
+
+        try {
+          const res = await fetch(`${apiBase}/api/profile`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+
+          const data = await res.json();
+
+          if (!res.ok || data.error) {
+            showMessage("Error saving profile.");
+            return;
+          }
+
+          showMessage("Profile saved.");
+        } catch (err) {
+          console.error(err);
+          showMessage("Error saving profile.");
+        }
+      });
+    </script>
+  </body>
+</html>

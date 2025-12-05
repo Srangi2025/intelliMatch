@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1763226007135,
+    "createdAt": "2025-11-15T17:00:07.135Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "",
+    "researchArea": "none",
+    "labWebsite": "www.wikipedia.com",
+    "projects": "none",
+    "bio": "none"
+  },
+  {
+    "id": 1763226068045,
+    "createdAt": "2025-11-15T17:01:08.045Z",
+    "role": "student",
+    "fullName": "Sai",
+    "major": "none",
+    "year": "none",
+    "skillset": "none",
+    "research": "none",
+    "projects": "none",
+    "gpa": "none",
+    "coursework": "none",
+    "resumePath": ""
+  },
+  {
+    "id": 1764796126855,
+    "createdAt": "2025-12-03T21:08:46.855Z",
+    "role": "student",
+    "fullName": "Sai",
+    "major": "none",
+    "year": "none",
+    "skillset": "none",
+    "research": "none",
+    "projects": "none",
+    "gpa": "none",
+    "coursework": "none"
+  },
+  {
+    "id": 1764813015810,
+    "createdAt": "2025-12-04T01:50:15.810Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "Engineering",
+    "researchArea": "hi",
+    "labWebsite": "hi",
+    "projects": "hi",
+    "bio": "hi"
+  },
+  {
+    "id": 1764813864201,
+    "createdAt": "2025-12-04T02:04:24.201Z",
+    "role": "professor",
+    "fullName": "Sunseri",
+    "department": "Math",
+    "researchArea": "Math",
+    "labWebsite": "www.wikipedia.com",
+    "projects": "Math",
+    "bio": "Math"
+  },
+  {
+    "id": 1764814193313,
+    "createdAt": "2025-12-04T02:09:53.313Z",
+    "role": "professor",
+    "fullName": "Sunseri",
+    "department": "Math",
+    "researchArea": "Math",
+    "labWebsite": "www.wikipedia.com",
+    "projects": "Math",
+    "bio": "Math"
+  },
+  {
+    "id": 1764814518336,
+    "createdAt": "2025-12-04T02:15:18.336Z",
+    "role": "professor",
+    "fullName": "Sunseri",
+    "department": "Math",
+    "researchArea": "Math",
+    "labWebsite": "www.wikipedia.com",
+    "projects": "Math",
+    "bio": "Math"
+  },
+  {
+    "id": 1764814564695,
+    "createdAt": "2025-12-04T02:16:04.695Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "Sai",
+    "researchArea": "Sai",
+    "labWebsite": "Sai",
+    "projects": "Sai",
+    "bio": "saI"
+  },
+  {
+    "id": 1764814809118,
+    "createdAt": "2025-12-04T02:20:09.118Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "Sai",
+    "researchArea": "",
+    "labWebsite": "",
+    "projects": "",
+    "bio": ""
+  },
+  {
+    "id": 1764815201119,
+    "createdAt": "2025-12-04T02:26:41.119Z",
+    "role": "professor",
+    "fullName": "Sai",
+    "department": "Engineering",
+    "researchArea": "",
+    "labWebsite": "",
+    "projects": "",
+    "bio": ""
+  }
+]
